@@ -1,0 +1,12 @@
+# Sensitive / internal assets
+*.pptx
+log_activity/
+_background.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
