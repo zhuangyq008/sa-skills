@@ -1,13 +1,13 @@
-# Example: PoC Proposal — Shokz AI Customer Service Agent
+# Example: PoC Proposal — AnyCompany AI Customer Service Agent
 
 > This is a reference example of a PoC proposal produced by the poc-design workflow.
 
 ---
 
-# PoC Proposal: Shokz AI 客服 Agent
+# PoC Proposal: AnyCompany AI 客服 Agent
 
 ## 1. Background
-- **Customer**: Shokz (韶音科技) — 全球领先的开放式耳机品牌
+- **Customer**: AnyCompany (AnyCompany) — 全球领先的开放式耳机品牌
 - **Current state**: 客服团队使用传统工单系统，知识库分散在多个文档中
 - **Pain points**:
   - 客服响应时间长（平均 4 小时）
@@ -48,7 +48,7 @@
 |---------|---------|-----------------|
 | Amazon Bedrock | LLM API | Multi-model (Claude for Chinese), managed, pay-per-token |
 | Bedrock Knowledge Base | RAG | 原生集成 Bedrock，无需自建 embedding pipeline |
-| OpenSearch Serverless | Vector store | Serverless 免运维，韶音 IT 团队小 |
+| OpenSearch Serverless | Vector store | Serverless 免运维，AnyCompany IT 团队小 |
 | API Gateway + Lambda | API layer | Serverless 架构，零运维，按量计费 |
 | DynamoDB | Session store | 单位数毫秒延迟，Serverless 模式 |
 | Bedrock Guardrails | Safety | 防止回复偏离客服场景，PII 过滤 |
@@ -92,11 +92,11 @@
 | Role | Responsibility | From |
 |------|---------------|------|
 | SA | 架构设计 + 技术指导 | AWS |
-| 韶音 IT | 数据准备 + API 对接 + 测试 | Customer |
+| AnyCompany IT | 数据准备 + API 对接 + 测试 | Customer |
 | SA Specialist (optional) | Bedrock 深度调优 | AWS |
 
 ## 9. Next Steps
-1. 韶音提供 FAQ 文档和客服知识库（本周）
+1. AnyCompany提供 FAQ 文档和客服知识库（本周）
 2. AWS 搭建 PoC 环境（下周一）
 3. 双周对齐会（每周三 14:00）
 4. Week 4 末: PoC 演示会
