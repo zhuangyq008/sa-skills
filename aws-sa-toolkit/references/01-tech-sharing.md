@@ -75,8 +75,8 @@ Generate a slide-by-slide Markdown draft (`{topic}-draft.md`):
 
 Based on user's format choice:
 
-### Option A: .pptx (using ppt-maker skill)
-1. Use the installed `ppt-maker` skill with `SA-PPT-Template.pptx` template
+### Option A: .pptx (using Anthropic pptx skill)
+1. Use Anthropic's official `pptx` skill (https://github.com/anthropics/skills/tree/main/skills/pptx) with `SA-PPT-Template.pptx` template
 2. Template path: `~/.claude/skills/aws-sa-toolkit/references/SA-PPT-Template.pptx`
 3. Map each slide from the draft to a PPT slide
 4. Apply SA template styling

@@ -35,7 +35,7 @@ These rules apply across ALL workflows:
 1. **Language**: Chinese primary, technical terms keep English original (e.g., "Amazon Bedrock" not "亚马逊基岩")
 2. **Audience confirmation**: Before producing output, confirm with user: audience, depth, format
 3. **Developer/architect focus**: When audience is technical — explain principles, show evolution path, provide learning resources
-4. **PPT production**: Use installed `ppt-maker` skill (python-pptx) with `SA-PPT-Template.pptx` for .pptx output, or `frontend-slides` skill for HTML output. Template location: `references/SA-PPT-Template.pptx`
+4. **PPT production**: Use Anthropic's official `pptx` skill (https://github.com/anthropics/skills/tree/main/skills/pptx) with `SA-PPT-Template.pptx` for .pptx output, or `frontend-slides` skill for HTML output. Template location: `references/SA-PPT-Template.pptx`
 5. **Context loading**: Load context files from `references/` on demand — do NOT read all context files upfront
 
 ## Context Files
